@@ -3,10 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página 3</title>
+    <title>Formulários</title>
 </head>
 <body>
-    <p>Olá, você está na Página 3.</p>
+    <p>Exemplo de formulário</p>
+
+    <form>
+        <label for="iptNome">Nome: </label>
+        <input type="text" id="iptNome" placeholder="Digite seu Nome Completo" value="Daniel"> <br>
+        <hr>
+
+        <label for="iptSenha">Senha: </label>
+        <input type="password" id="iptSenha"> <br>
+        <hr>
+
+        <label for="iptEmail">Email: </label>
+        <input type="email" id="iptEmail"> <br>
+        <hr>
+
+        Usuário do Linux? 
+        <input type="radio" name="iptLinux" checked>  Sim
+        <input type="radio" name="iptLinux"> Não <br>
+        <hr>
+
+        É aluno do IFCE?
+        <input type="radio" id="iptAlunoSim" name="iptAluno">
+        <label for="iptAlunoSim"> Sim </label>
+        <input type="radio" id="iptAlunoNao" name="iptAluno">  
+        <label for="iptAlunoNao"> Não </label> <br>
+
+        <hr>
+        Quais são as suas frutas favoritas?    <br>
+        <input type="checkbox" id="iptFruta1" name="iptFruta1" value="Manga">
+        <label for="iptFruta1"> Manga </label><br>
+
+        <input type="checkbox" id="iptFruta2" name="iptFruta2" value="Banana">
+        <label for="iptFruta2"> Banana </label><br>
+
+        <input type="checkbox" id="iptFruta3" name="iptFruta3" value="Mamão">
+        <label for="iptFruta3"> Mamão </label><br>
+        <hr>
+        
+        <label for="iptIdade">Idade: </label>
+        <input type="number" id="iptIdade"> <br>
+
+        <hr>
+        <label for="iptNasc">Data de Nascimento: </label>
+        <input type="date" id="iptNasc"> <br>
+
+        <hr>
+        <label for="iptCor">Cor: </label>
+        <input type="color" id="iptCor"> <br>
+
+        <hr>
+        <label for="slcEstadoCivil"> Estado Civil: </label>
+        <select id="slcEstadoCivil" name="slcEstadoCivil">
+            <option value="1">Solteiro</option>
+            <option value="2">Casado</option>
+            <option value="3">Viúvo</option>
+            <option value="4">Divorciado</option>
+            <option value="5">Separado</option>
+        </select>
+
+        <hr>
+        <label for="iptDoc">Documento: </label>
+        <input type="file" id="iptDoc"> <br>
+
+        <hr>
+        <label for="txtComentarios">Comentários:</label>
+        <textarea id="txtComentarios" name="txtComentarios" rows="4" cols="50">Texto padrão. </textarea>
+
+        <hr>
+        <!-- <input type="button" value="Processar"> -->
+        <button type="submit">Processar</button>
+        <input type="reset" value="Apagar">
+
+    </form> 
+    
+    <br><br>
+
     <a href="index.html">Página Principal</a>
 </body>
 </html>
