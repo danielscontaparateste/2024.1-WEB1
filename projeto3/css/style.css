@@ -1,0 +1,56 @@
+p {
+    /* font-size: 20px; */
+    font-size: 150%;
+    /* font-size: 150%; */
+    /* text-align: center; */
+    text-decoration: none;
+    text-transform: none;
+    /* font-variant: small-caps; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* word-spacing: 20px; */
+    /* letter-spacing: 5px; */
+    /* direction: ltr; */
+    /* line-height: 50px; */
+    text-indent: 150px;
+    text-align: justify;
+    text-justify:inter-word;
+    color: #000;
+    /* color: rgb(106, 0, 255); */
+}
+
+body{
+    /* background-color: beige; */
+    background-color: rgb(241, 247, 247);
+    /* background-image: url("../imgs/ifce.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right; */
+    font-size: 14pt;
+}
+
+/* span {
+    font-weight: bold;
+    font-size: 150%;
+    background-color: black;
+    color: white;
+} */
+
+/* p.par{
+    color: orange;
+} */
+
+span.gen{
+    font-weight: bold;
+    font-size: 150%;
+    color: white;
+}
+
+span.par{
+    background-color: black;
+}
+
+.impar{
+    background-color: rgb(56, 10, 220);
+    font-style: italic;
+}
+

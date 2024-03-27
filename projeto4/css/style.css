@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* body {
+    
+} */
+
+header {
+    width: 100%;
+    height: 100px;
+    /* border: 3px solid black; */
+    border: 3px solid #5099ba;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    border: 3px solid red;
+}
+
+main {
+    width: 100%;
+    height: 350px;
+    border: 3px solid black;
+    /* overflow: scroll; */
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    border: 3px solid rgb(0, 0, 255);
+}
+
+#container{
+    width: 1000px;
+    background-color: lightgreen;
+    font-size: 20pt;
+}
+
+.col1{
+    width: 50%;
+    border: 1px solid black;
+    height: 100%;
+    background-color: gray;
+    overflow: scroll;
+    float:left;
+    text-align: justify;
+    
+    /* padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px; */
+
+    /* padding: 10px 30px 15px 20px;  */
+    padding: 20px; /* padding: 20px 20px 20px 20px; */
+    
+}
+
+.col2{
+    width: 50%;
+    border: 1px solid black;
+    height: 100%;
+    background-color: orange;
+    float:left;
+    overflow: scroll;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border: 5px double white;
+    background-color: black;
+    clear:left;
+    /* float: left; */
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+span.destaque{
+    background-color: lightpink;
+    padding: 8px;
+    border-radius: 25px;
+
+}
