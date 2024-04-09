@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script>
+        function mudarCor(){
+            var bd = document.querySelector("body");
+            bd.style.backgroundColor = "gray";
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button type="button" onclick="alert('Olá Mundo')">Olá</button>
+    <button type="button" onclick="mudarCor()">Mudar Cor</button>
+    <button type="button" onclick="mudarCorBox()">Mudar Cor Box</button>
+
+    <div class="box" id="bx1"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
