@@ -15,9 +15,19 @@
 <body>
     <button type="button" onclick="alert('Olá Mundo')">Olá</button>
     <button type="button" onclick="mudarCor()">Mudar Cor</button>
+    <button type="button" onclick="alterarVarGlobal()">Alterar Variável Global</button>
+    <button type="button" onclick="escopoVar()">Escopo de Variável</button>
     <button type="button" onclick="mudarCorBox()">Mudar Cor Box</button>
 
+    <br>
+    X: <input type="number" id="iptX"> 
+    Y: <input type="number" id="iptY">
+
+    <button type="button" onclick="somar()">Somar</button>
+
     <div class="box" id="bx1"></div>
+
+    <span id="spnRes"></span>
 
     <script src="js/script.js"></script>
 </body>
