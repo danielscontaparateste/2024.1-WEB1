@@ -1,8 +1,9 @@
 var gb = 10;
 
 function mudarCorBox(){
+    const cor = document.querySelector("#iptNovaCor").value;
     let bx = document.querySelector("#bx1");
-    bx.style.backgroundColor = "blue";
+    bx.style.backgroundColor = cor;
     bx.style.borderRadius = "100px";
 
     console.log(x);
@@ -21,16 +22,27 @@ function escopoVar(){
     // ....
     {
         let x = 5;    
-        if (x % 2 == 0){
-            x = x * 2;
-        }else {
-            x = x * 3;
-        }
+        // if (x % 2 == 0){
+        //     x = x * 2;
+        // }else {
+        //     x = x * 3;
+        // }
         console.log("Dentro do bloco: "+x);
     }
     // z = z / 2;
     console.log("Fora do bloco: "+x);
     console.log("Valor da variável z: "+z);
+}
+
+function verificarParImpar(k){
+    if (k % 2 == 0){
+        k = k * 2;
+    }else {
+        k = k * 3;
+    }
+    let bx = document.querySelector("#bx1");
+    bx.innerHTML = k;
+
 }
 
 function somar(){
@@ -45,5 +57,7 @@ function somar(){
     var spnRes = document.getElementById("spnRes");
 
     spnRes.innerHTML = "Soma: "+z;
+
+    verificarParImpar(z);
 
 }

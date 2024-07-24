@@ -16,4 +16,6 @@ button {
     border: 3px solid black;
     right: 100px;
     top: 100px;
+    text-align: center;
+    font-size: 300%;
 }
