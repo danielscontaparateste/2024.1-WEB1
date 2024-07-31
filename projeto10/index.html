@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM - Criando Elementos</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <button type="button" onclick="criarElemento()">Clique</button>
+    Digite a quantidade de elementos: 
+    <input type="number" id="iptQtd">
+    <button type="button" onclick="criarElemento()" id="btnExe">Executar</button>
+
+    <!-- <div id="ctn"></div> -->
+    <br>
+    
+    Qual o código do elemento: <input type="number" id="iptCod">
+    Cor: <input type="color" id="iptCor">
+    <button type="button" onclick="alterarElemento()">Alterar</button>
+
     <script src="js/script.js"></script>
 </body>
 </html>
